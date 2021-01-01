@@ -1,0 +1,7 @@
+input#left {
+    text-align: right;
+}
+
+input#right {
+    text-align: left;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palindrome editor</title>
+    <link rel="stylesheet" type="text/css" href="dromeditor.css">
+</head>
+<body>
+<div id="input">
+    <input id="left" type="text"><input id="right" type="text">
+    <input id="set_desired" type="checkbox" accesskey="t" value="">
+</div>
+<div id="output">
+    <input id="last_value" type="text" disabled="true">
+    <input id="desired_value" type="text" disabled="true">
+</div>
+<div id="tests">
+    <textarea id="test_cases"></textarea>
+</div>
+<script type="module">
+    import * as mirror from "./__target__/mirror.js";
+    window.mirror = mirror;
+</script>
+</body>
+</html>
